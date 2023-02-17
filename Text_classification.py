@@ -2,7 +2,7 @@ import numpy as np
 import pandas as pd
 
 import os
-for dirname, _, filenames in os.walk('/kaggle/input'):
+for dirname, _, filenames in os.walk('../KPMG/korean-hate-speech-detection/'):
     for filename in filenames:
         print(os.path.join(dirname, filename))
         
@@ -16,7 +16,7 @@ pipe = pipeline('text-classification', model='beomi/beep-KcELECTRA-base-hate', d
 pipe("안녕하세요")
 
 #비속어 감지 데이터셋 불러오기
-df = pd.read_csv('/kaggle/input/korean-hate-speech-detection/test.hate.no_label.csv')
+df = pd.read_csv('../KPMG/korean-hate-speech-detection/test.hate.no_label.csv')
 
 df['label'] = df['comments'].map(lambda x: pipe(x)[0]['label'])
 df.label.value_counts()
