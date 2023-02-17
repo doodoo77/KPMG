@@ -7,7 +7,7 @@ openai.api_key = My_OpenAI_key
 def analysis_comment(temperature=0.5):
 
     # few-shot 예제 불러오기
-    f = open('/KPMG/ABSA_examples.txt','r')
+    f = open('../KPMG/ABSA_examples.txt','rt', encoding='UTF8')
     examples = f.read()
 
     # 코멘트 입력
