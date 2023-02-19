@@ -7,8 +7,6 @@
 
 ### 1) 욕설, 비난 필터링을 위한 윤리성 검사 (Text classification)
 
-: Text_classification.py를 통해서 구현함
-
 : 이를 구현하기 위한 NLP Task은 문장을 특정한 목적에 따라 숫자로 분류하는 Text classification
 
 : BERT계열의 KcELECTRA 모델로 학습 윤리성 검사를 구현하였음
@@ -23,8 +21,6 @@
 
 ### 2) 소프트 스킬 추출 및 감성분석을 위한 ABSA (Aspect-Based Sentiment Analysis)
 
-: ABSA.py를 통해서 구현함
-
 : 이를 구현하기 위한 NLP Task는 한문장에서 특정 측면에 해당하는 내용을 대상으로 감성분석하는 Aspect-Based Sentiment Analysis
 
 : GPT-3 모델에 few-shot learning을 적용해 소프트 스킬 추출 및 감성분석을 진행함
@@ -36,8 +32,6 @@
 ---
 
 ### 3) Narrative 피드백 제공을 위한 자연어 생성(Natural Language Generation)
-
-: NLG.py를 통해서 구현함
 
 : 이를 구현하기 위한 NLP Task는 사전에 정해놓은 템플릿에 따라 자연어 생성을 하는 Template-based NLG
 
