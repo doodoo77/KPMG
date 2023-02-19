@@ -37,7 +37,7 @@
 
 ### 3) Narrative 피드백 제공을 위한 자연어 생성(Natural Language Generation)
 
-: xx.py를 통해서 구현함
+: NLG.py를 통해서 구현함
 
 : 이를 구현하기 위한 NLP Task는 사전에 정해놓은 템플릿에 따라 자연어 생성을 하는 Template-based NLG
 
