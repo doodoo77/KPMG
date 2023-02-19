@@ -35,9 +35,9 @@
 
 : 이를 구현하기 위한 NLP Task는 사전에 정해놓은 템플릿에 따라 자연어 생성을 하는 Template-based NLG
 
-: GPT-3 모델을 사용하여 Narrative 피드백을 제공함
+: GPT-3 모델에 few-shot learning을 적용해 Narrative 피드백을 제공함
 
-: GPT-3 모델의 출력인 (segment, aspect, and sentiment)를 바탕으로 "당신의 [segment]를 통해 [aspect]가 [sentiment]하게 보여지고 있어요!" 와 같은 Narrative를 제공함 
+: 사전에 정의한 템플릿을 기반으로 "당신의 [segment]를 통해 [aspect]가 [sentiment]하게 보여지고 있어요!" 와 같은 Narrative를 제공함 
 
 <img src="https://user-images.githubusercontent.com/97869551/219631071-1369ea8f-c3e4-44b8-a251-ac87677a6772.png" width="800" height="250"/>
 
